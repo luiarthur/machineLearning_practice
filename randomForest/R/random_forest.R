@@ -19,5 +19,3 @@ mean((ranf$pred - y)^2)
 
 plot(sort(mu),type="l")
 points(ranf$pred[order(mu)],col="blue",cex=.5)
-
-
